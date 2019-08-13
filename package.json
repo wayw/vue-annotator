@@ -1,0 +1,18 @@
+{
+  "name": "vue-annotator",
+  "version": "1.0.0",
+  "description": "vue-annotator",
+  "main": "index.js",
+  "author": "wway",
+  "license": "ISC",
+  "devDependencies": {
+    "js-loader": "^0.1.1",
+    "ts-loader": "^6.0.4",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "start:dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack -p --config webpack.prod.js"
+  }
+}
